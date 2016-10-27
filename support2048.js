@@ -10,19 +10,19 @@ function getPosLeft(i, j){
 
 function getNumberBackgroundColor(number){
 	switch(number){
-		case 2: return "#eee4da"; break;
-		case 4: return "#ede0c8"; break;
-		case 8: return "#f2b179"; break;
-		case 16: return "#f59563"; break;
-		case 32: return "#f67e5f"; break;
-		case 64: return "#f65e3b"; break;
-		case 128:return "#edcf72"; break;
-		case 256:return "#edcc61"; break;
-		case 512:  return "#9c0"; break;
-		case 1024: return "#33b5e5"; break;
-		case 2048: return "#09c"; break;
-		case 4096: return "#a6c"; break;
-		case 8192: return "#93c"; break;
+		case 2: return "url(img/19.jpg)"; break;
+		case 4: return "url(img/24.jpg"; break;
+		case 8: return "url(img/3_140822153700_6.jpg)"; break;
+		case 16: return "url(img/4b86161b6a3b4075896cee4f46260994.jpg)"; break;
+		case 32: return "url(img/56471427330052.jpg)"; break;
+		case 64: return "url(img/72931427330052.jpg)"; break;
+		case 128:return "url(img/76941427330052.jpg)"; break;
+		case 256:return "url(img/u=1814826180,120811790&fm=21&gp=0.jpg)"; break;
+		case 512:  return "url(img/u=1914913583,751140247&fm=21&gp=0.jpg)"; break;
+		case 1024: return "url(img/u=1922491179,3659187841&fm=21&gp=0.jpg)"; break;
+		case 2048: return "url(img/u=3629850850,61518062&fm=21&gp=0 (1).jpg)"; break;
+		case 4096: return "url(img/u=4231102329,592827369&fm=21&gp=0.jpg)"; break;
+		case 8192: return "url(img/u=4231102329,592827369&fm=21&gp=0.jpg)"; break;
 	}
 
 	return "black"

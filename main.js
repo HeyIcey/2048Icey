@@ -58,7 +58,7 @@ function updateBoardView(){
 				theNumberCell.css('left', getPosLeft(i, j));
 				theNumberCell.css('background-image', getNumberBackgroundColor(board[i][j]));
 				theNumberCell.css('color', getNumberColor(board[i][j]));
-				// theNumberCell.text(board[i][j]);
+				theNumberCell.text(board[i][j]);
 			}
 			hasConflicted[i][j] =false;
 		}
